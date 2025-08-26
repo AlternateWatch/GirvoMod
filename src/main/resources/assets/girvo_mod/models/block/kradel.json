@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "girvo_mod:block/kradel",
+    "up": "girvo_mod:block/kradel",
+    "north": "girvo_mod:block/kradel",
+    "east": "girvo_mod:block/kradel",
+    "south": "girvo_mod:block/kradel",
+    "west": "girvo_mod:block/kradel",
+    "particle": "girvo_mod:block/kradel"
+  },
+  "render_type": "solid"
+}

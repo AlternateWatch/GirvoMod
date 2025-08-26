@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "girvo_mod:block/ratmio",
+    "up": "girvo_mod:block/ratmio",
+    "north": "girvo_mod:block/ratmio",
+    "east": "girvo_mod:block/ratmio",
+    "south": "girvo_mod:block/ratmio",
+    "west": "girvo_mod:block/ratmio",
+    "particle": "girvo_mod:block/ratmio"
+  },
+  "render_type": "solid"
+}

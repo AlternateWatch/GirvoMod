@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "golpeandofuerte_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "girvo_mod:nova"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

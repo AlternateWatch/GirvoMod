@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "girvo_mod:item/supernova_head"
+  }
+}

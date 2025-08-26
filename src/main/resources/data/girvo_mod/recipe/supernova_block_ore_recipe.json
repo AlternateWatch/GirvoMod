@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "girvo_mod:supernova_block"
+  ],
+  "result": {
+    "id": "girvo_mod:supernova_ingot",
+    "count": 9
+  }
+}

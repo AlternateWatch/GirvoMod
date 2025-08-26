@@ -1,0 +1,510 @@
+{
+  "mod_elements": [
+    {
+      "name": "Golpeandofuerte",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golpeandofuerte",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/advancement/golpeandofuerte.json"
+        ]
+      }
+    },
+    {
+      "name": "Nova",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nova",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/girvo_mod/models/item/nova.json",
+          "src/main/resources/assets/girvo_mod/items/nova.json",
+          "src/main/java/net/mcreator/girvomod/item/NovaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NovaProyectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nova_proyectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/entity/NovaProyectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "NovaProyectileProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nova_proyectile_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/girvomod/procedures/NovaProyectileProjectileHitsBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Arkanidon",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arkanidon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/loot_table/blocks/arkanidon.json",
+          "src/main/resources/assets/girvo_mod/items/arkanidon.json",
+          "src/main/resources/assets/girvo_mod/models/block/arkanidon.json",
+          "src/main/java/net/mcreator/girvomod/block/ArkanidonBlock.java",
+          "src/main/resources/assets/girvo_mod/models/item/arkanidon.json",
+          "src/main/resources/assets/girvo_mod/blockstates/arkanidon.json"
+        ]
+      }
+    },
+    {
+      "name": "Reactido",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reactido",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/worldgen/placed_feature/reactido.json",
+          "src/main/resources/assets/girvo_mod/blockstates/reactido.json",
+          "src/main/resources/data/girvo_mod/worldgen/configured_feature/reactido.json",
+          "src/main/resources/assets/girvo_mod/models/item/reactido.json",
+          "src/main/java/net/mcreator/girvomod/block/ReactidoBlock.java",
+          "src/main/resources/assets/girvo_mod/models/block/reactido.json",
+          "src/main/resources/data/girvo_mod/neoforge/biome_modifier/reactido_biome_modifier.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/reactido.json",
+          "src/main/resources/assets/girvo_mod/items/reactido.json"
+        ]
+      }
+    },
+    {
+      "name": "Cortnio",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cortnio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/block/CortnioBlock.java",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/cortnio.json",
+          "src/main/resources/assets/girvo_mod/blockstates/cortnio.json",
+          "src/main/resources/assets/girvo_mod/models/block/cortnio.json",
+          "src/main/resources/assets/girvo_mod/models/item/cortnio.json",
+          "src/main/resources/assets/girvo_mod/items/cortnio.json"
+        ]
+      }
+    },
+    {
+      "name": "Columnadecortnio1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "columnadecortnio_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/worldgen/structure_set/columnadecortnio_1.json",
+          "src/main/resources/data/girvo_mod/worldgen/template_pool/columnadecortnio_1.json",
+          "src/main/resources/data/girvo_mod/worldgen/structure/columnadecortnio_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Columnadecrtnio2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "columnadecrtnio_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/worldgen/structure/columnadecrtnio_2.json",
+          "src/main/resources/data/girvo_mod/worldgen/structure_set/columnadecrtnio_2.json",
+          "src/main/resources/data/girvo_mod/worldgen/template_pool/columnadecrtnio_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Ratmio",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ratmio",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/girvo_mod/items/ratmio.json",
+          "src/main/java/net/mcreator/girvomod/block/RatmioBlock.java",
+          "src/main/resources/assets/girvo_mod/models/item/ratmio.json",
+          "src/main/resources/assets/girvo_mod/blockstates/ratmio.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/ratmio.json",
+          "src/main/resources/assets/girvo_mod/models/block/ratmio.json"
+        ]
+      }
+    },
+    {
+      "name": "RatmioOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ratmio_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/girvomod/procedures/RatmioOnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Pautino",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pautino",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/girvo_mod/models/block/pautino.json",
+          "src/main/resources/assets/girvo_mod/items/pautino.json",
+          "src/main/resources/assets/girvo_mod/models/item/pautino.json",
+          "src/main/resources/assets/girvo_mod/blockstates/pautino.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/pautino.json",
+          "src/main/java/net/mcreator/girvomod/block/PautinoBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Kradel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kradel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/girvo_mod/items/kradel.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/kradel.json",
+          "src/main/resources/assets/girvo_mod/blockstates/kradel.json",
+          "src/main/resources/assets/girvo_mod/models/item/kradel.json",
+          "src/main/resources/assets/girvo_mod/models/block/kradel.json",
+          "src/main/java/net/mcreator/girvomod/block/KradelBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Eudenta",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eudenta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/block/EudentaBlock.java",
+          "src/main/resources/assets/girvo_mod/models/block/eudenta.json",
+          "src/main/resources/assets/girvo_mod/items/eudenta.json",
+          "src/main/resources/assets/girvo_mod/models/item/eudenta.json",
+          "src/main/resources/assets/girvo_mod/blockstates/eudenta.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/eudenta.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/item/SupernovaIngotItem.java",
+          "src/main/resources/assets/girvo_mod/models/item/supernova_ingot.json",
+          "src/main/resources/assets/girvo_mod/items/supernova_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/block/SupernovaOreBlock.java",
+          "src/main/resources/data/girvo_mod/neoforge/biome_modifier/supernova_ore_biome_modifier.json",
+          "src/main/resources/assets/girvo_mod/models/block/supernova_ore.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/supernova_ore.json",
+          "src/main/resources/data/girvo_mod/worldgen/configured_feature/supernova_ore.json",
+          "src/main/resources/assets/girvo_mod/items/supernova_ore.json",
+          "src/main/resources/data/girvo_mod/worldgen/placed_feature/supernova_ore.json",
+          "src/main/resources/assets/girvo_mod/models/item/supernova_ore.json",
+          "src/main/resources/assets/girvo_mod/blockstates/supernova_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/girvo_mod/models/block/supernova_block.json",
+          "src/main/resources/assets/girvo_mod/models/item/supernova_block.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/supernova_block.json",
+          "src/main/resources/assets/girvo_mod/items/supernova_block.json",
+          "src/main/resources/assets/girvo_mod/blockstates/supernova_block.json",
+          "src/main/java/net/mcreator/girvomod/block/SupernovaBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/advancement/recipes/supernova_ore_block_recipe.json",
+          "src/main/resources/data/girvo_mod/recipe/supernova_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/recipe/supernova_block_ore_recipe.json",
+          "src/main/resources/data/girvo_mod/advancement/recipes/supernova_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/recipe/supernova_ore_smelting.json",
+          "src/main/resources/data/girvo_mod/advancement/recipes/supernova_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/girvo_mod/items/supernova_armor_chestplate.json",
+          "src/main/resources/assets/girvo_mod/equipment/supernova_armor.json",
+          "src/main/java/net/mcreator/girvomod/item/SupernovaArmorItem.java",
+          "src/main/resources/assets/girvo_mod/items/supernova_armor_helmet.json",
+          "src/main/resources/assets/girvo_mod/items/supernova_armor_boots.json",
+          "src/main/resources/assets/girvo_mod/items/supernova_armor_leggings.json",
+          "src/main/resources/assets/girvo_mod/models/item/supernova_armor_boots.json",
+          "src/main/resources/assets/girvo_mod/models/item/supernova_armor_chestplate.json",
+          "src/main/resources/assets/girvo_mod/models/item/supernova_armor_leggings.json",
+          "src/main/resources/assets/girvo_mod/models/item/supernova_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/recipe/supernova_armor_helmet_recipe.json",
+          "src/main/resources/data/girvo_mod/advancement/recipes/supernova_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/advancement/recipes/supernova_armor_chestplate_recipe.json",
+          "src/main/resources/data/girvo_mod/recipe/supernova_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/recipe/supernova_armor_leggings_recipe.json",
+          "src/main/resources/data/girvo_mod/advancement/recipes/supernova_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SupernovaArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supernova_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/recipe/supernova_armor_boots_recipe.json",
+          "src/main/resources/data/girvo_mod/advancement/recipes/supernova_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SupernovaBlock",
+      "~CUSTOM:SupernovaOre",
+      "~CUSTOM:Kradel",
+      "~CUSTOM:Pautino",
+      "~CUSTOM:Cortnio",
+      "~CUSTOM:Reactido",
+      "~CUSTOM:Arkanidon"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Kradel",
+      "~CUSTOM:Arkanidon"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Pautino",
+      "~CUSTOM:Cortnio",
+      "~CUSTOM:Reactido"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:SupernovaBlock",
+      "~CUSTOM:SupernovaOre"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:SupernovaArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:SupernovaArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:SupernovaArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:SupernovaArmor.boots"
+    ],
+    "ITEMS:girvo_mod:supernova_armor_repair_items": [
+      "~CUSTOM:SupernovaIngot"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.golpeandofuerte.descr": "Has convertido materia Nova en Arkanidón",
+      "advancements.golpeandofuerte.title": "Golpeando Fuerte",
+      "item.girvo_mod.nova": "Nova",
+      "item.girvo_mod.arkanidon": "Arkanidon",
+      "item.girvo_mod.reactido": "Reáctido",
+      "item.girvo_mod.cortnio": "Cortnio",
+      "item.girvo_mod.ratmio": "Ratmio",
+      "item.girvo_mod.pautino": "Pautino",
+      "item.girvo_mod.kradel": "Kradel",
+      "item.girvo_mod.eudenta": "Eudenta",
+      "item.girvo_mod.supernova_ingot": "Supernova",
+      "item.girvo_mod.supernova_ore": "Supernova Ore",
+      "item.girvo_mod.supernova_block": "Block of Supernova",
+      "item.girvo_mod.supernova_armor_leggings": "Supernova Leggings",
+      "item.girvo_mod.supernova_armor_helmet": "Supernova Helmet",
+      "item.girvo_mod.supernova_armor_chestplate": "Supernova Chestplate",
+      "item.girvo_mod.supernova_armor_boots": "Supernova Boots"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/girvomod/init/GirvoModModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/girvomod/GirvoModMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/girvomod/init/GirvoModModBlocks.java",
+      "src/main/java/net/mcreator/girvomod/init/GirvoModModItems.java",
+      "src/main/java/net/mcreator/girvomod/init/GirvoModModEntities.java",
+      "src/main/java/net/mcreator/girvomod/init/GirvoModModEntityRenderers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "girvo_mod",
+    "modName": "Girvo Mod",
+    "version": "1.0.0",
+    "author": "Vomvarderro88, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.girvomod"
+  },
+  "mcreatorVersion": 202500228610
+}

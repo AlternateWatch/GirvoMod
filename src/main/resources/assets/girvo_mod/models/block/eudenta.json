@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "girvo_mod:block/eudenta",
+    "up": "girvo_mod:block/eudenta",
+    "north": "girvo_mod:block/eudenta",
+    "east": "girvo_mod:block/eudenta",
+    "south": "girvo_mod:block/eudenta",
+    "west": "girvo_mod:block/eudenta",
+    "particle": "girvo_mod:block/eudenta"
+  },
+  "render_type": "solid"
+}

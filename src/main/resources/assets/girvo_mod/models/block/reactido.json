@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "girvo_mod:block/reactido",
+    "up": "girvo_mod:block/reactido",
+    "north": "girvo_mod:block/reactido",
+    "east": "girvo_mod:block/reactido",
+    "south": "girvo_mod:block/reactido",
+    "west": "girvo_mod:block/reactido",
+    "particle": "girvo_mod:block/reactido"
+  },
+  "render_type": "solid"
+}

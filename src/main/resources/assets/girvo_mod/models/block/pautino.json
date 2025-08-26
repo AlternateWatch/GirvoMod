@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "girvo_mod:block/pautino",
+    "up": "girvo_mod:block/pautino",
+    "north": "girvo_mod:block/pautino",
+    "east": "girvo_mod:block/pautino",
+    "south": "girvo_mod:block/pautino",
+    "west": "girvo_mod:block/pautino",
+    "particle": "girvo_mod:block/pautino"
+  },
+  "render_type": "solid"
+}

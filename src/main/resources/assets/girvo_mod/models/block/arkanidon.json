@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "girvo_mod:block/arkanidon",
+    "up": "girvo_mod:block/arkanidon",
+    "north": "girvo_mod:block/arkanidonside",
+    "east": "girvo_mod:block/arkanidonside",
+    "south": "girvo_mod:block/arkanidonside",
+    "west": "girvo_mod:block/arkanidonside",
+    "particle": "girvo_mod:block/arkanidon"
+  },
+  "render_type": "solid"
+}

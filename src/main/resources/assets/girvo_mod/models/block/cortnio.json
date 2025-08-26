@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "girvo_mod:block/cortnio",
+    "up": "girvo_mod:block/cortnio",
+    "north": "girvo_mod:block/cortnio",
+    "east": "girvo_mod:block/cortnio",
+    "south": "girvo_mod:block/cortnio",
+    "west": "girvo_mod:block/cortnio",
+    "particle": "girvo_mod:block/cortnio"
+  },
+  "render_type": "solid"
+}

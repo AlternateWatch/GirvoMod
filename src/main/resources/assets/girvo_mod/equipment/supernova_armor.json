@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "girvo_mod:supernova_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "girvo_mod:supernova_armor"
+      }
+    ]
+  }
+}
