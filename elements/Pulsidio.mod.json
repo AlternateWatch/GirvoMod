@@ -2,17 +2,17 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "reactido",
-    "textureTop": "reactido",
-    "textureLeft": "reactido",
-    "textureFront": "reactido",
-    "textureRight": "reactido",
-    "textureBack": "reactido",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "cristalpulsidio",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
     "itemTexture": "",
@@ -20,9 +20,9 @@
     "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Reáctido",
+    "name": "Pulsidio",
     "specialInformation": {
       "fixedValue": []
     },
@@ -50,24 +50,24 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "REDSTONE"
+        "value": "DECORATIONS"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:PulsidioShard"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
-    "lightOpacity": 15,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
-    "canProvidePower": true,
+    "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
@@ -78,7 +78,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "ignitedByLava": true,
+    "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -89,7 +89,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "AMETHYST_CLUSTER"
     },
     "breakSound": {
       "value": ""
@@ -106,9 +106,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 7,
     "unbreakable": false,
-    "vanillaToolTier": "STONE",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -131,17 +131,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DEEPSLATE"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 8,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": -32
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "girvo_mod:block/cristalvakuto",
+    "particle": "girvo_mod:block/cristalvakuto"
+  },
+  "render_type": "cutout_mipped"
+}

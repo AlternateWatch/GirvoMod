@@ -23,6 +23,8 @@ public class GirvoModModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(GirvoModModItems.NOVA.get());
 			tabData.accept(GirvoModModItems.SUPERNOVA_INGOT.get());
+			tabData.accept(GirvoModModItems.VAKUTO_SHARD.get());
+			tabData.accept(GirvoModModItems.KIRITE_SHARD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(GirvoModModBlocks.ARKANIDON.get().asItem());
 			tabData.accept(GirvoModModBlocks.CORTNIO.get().asItem());
@@ -39,6 +41,13 @@ public class GirvoModModTabs {
 			tabData.accept(GirvoModModItems.SUPERNOVA_ARMOR_CHESTPLATE.get());
 			tabData.accept(GirvoModModItems.SUPERNOVA_ARMOR_LEGGINGS.get());
 			tabData.accept(GirvoModModItems.SUPERNOVA_ARMOR_BOOTS.get());
+			tabData.accept(GirvoModModItems.KIRITE_SWORD.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(GirvoModModBlocks.VAKUTO.get().asItem());
+			tabData.accept(GirvoModModBlocks.PULSIDIO.get().asItem());
+			tabData.accept(GirvoModModBlocks.KIRITA.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(GirvoModModItems.KIRITE_AXE.get());
 		}
 	}
 }

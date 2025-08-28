@@ -9,12 +9,15 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.girvomod.block.VakutoBlock;
 import net.mcreator.girvomod.block.SupernovaOreBlock;
 import net.mcreator.girvomod.block.SupernovaBlockBlock;
 import net.mcreator.girvomod.block.ReactidoBlock;
 import net.mcreator.girvomod.block.RatmioBlock;
+import net.mcreator.girvomod.block.PulsidioBlock;
 import net.mcreator.girvomod.block.PautinoBlock;
 import net.mcreator.girvomod.block.KradelBlock;
+import net.mcreator.girvomod.block.KiritaBlock;
 import net.mcreator.girvomod.block.EudentaBlock;
 import net.mcreator.girvomod.block.CortnioBlock;
 import net.mcreator.girvomod.block.ArkanidonBlock;
@@ -33,6 +36,9 @@ public class GirvoModModBlocks {
 	public static final DeferredBlock<Block> EUDENTA = register("eudenta", EudentaBlock::new);
 	public static final DeferredBlock<Block> SUPERNOVA_ORE = register("supernova_ore", SupernovaOreBlock::new);
 	public static final DeferredBlock<Block> SUPERNOVA_BLOCK = register("supernova_block", SupernovaBlockBlock::new);
+	public static final DeferredBlock<Block> VAKUTO = register("vakuto", VakutoBlock::new);
+	public static final DeferredBlock<Block> PULSIDIO = register("pulsidio", PulsidioBlock::new);
+	public static final DeferredBlock<Block> KIRITA = register("kirita", KiritaBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

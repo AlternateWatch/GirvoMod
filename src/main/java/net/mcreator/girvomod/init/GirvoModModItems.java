@@ -11,9 +11,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.girvomod.item.VakutoShardItem;
 import net.mcreator.girvomod.item.SupernovaIngotItem;
 import net.mcreator.girvomod.item.SupernovaArmorItem;
+import net.mcreator.girvomod.item.PulsidioShardItem;
 import net.mcreator.girvomod.item.NovaItem;
+import net.mcreator.girvomod.item.KiriteSwordItem;
+import net.mcreator.girvomod.item.KiriteShardItem;
+import net.mcreator.girvomod.item.KiriteAxeItem;
 import net.mcreator.girvomod.GirvoModMod;
 
 import java.util.function.Function;
@@ -35,6 +40,14 @@ public class GirvoModModItems {
 	public static final DeferredItem<Item> SUPERNOVA_ARMOR_CHESTPLATE = register("supernova_armor_chestplate", SupernovaArmorItem.Chestplate::new);
 	public static final DeferredItem<Item> SUPERNOVA_ARMOR_LEGGINGS = register("supernova_armor_leggings", SupernovaArmorItem.Leggings::new);
 	public static final DeferredItem<Item> SUPERNOVA_ARMOR_BOOTS = register("supernova_armor_boots", SupernovaArmorItem.Boots::new);
+	public static final DeferredItem<Item> VAKUTO_SHARD = register("vakuto_shard", VakutoShardItem::new);
+	public static final DeferredItem<Item> VAKUTO = block(GirvoModModBlocks.VAKUTO);
+	public static final DeferredItem<Item> PULSIDIO = block(GirvoModModBlocks.PULSIDIO);
+	public static final DeferredItem<Item> PULSIDIO_SHARD = register("pulsidio_shard", PulsidioShardItem::new);
+	public static final DeferredItem<Item> KIRITA = block(GirvoModModBlocks.KIRITA);
+	public static final DeferredItem<Item> KIRITE_SHARD = register("kirite_shard", KiriteShardItem::new);
+	public static final DeferredItem<Item> KIRITE_AXE = register("kirite_axe", KiriteAxeItem::new);
+	public static final DeferredItem<Item> KIRITE_SWORD = register("kirite_sword", KiriteSwordItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

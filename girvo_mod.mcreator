@@ -47,6 +47,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -410,6 +414,153 @@
           "src/main/resources/data/girvo_mod/advancement/recipes/supernova_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "VakutoShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vakuto_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/girvo_mod/models/item/vakuto_shard.json",
+          "src/main/resources/assets/girvo_mod/items/vakuto_shard.json",
+          "src/main/java/net/mcreator/girvomod/item/VakutoShardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Vakuto",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vakuto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/block/VakutoBlock.java",
+          "src/main/resources/assets/girvo_mod/items/vakuto.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/vakuto.json",
+          "src/main/resources/assets/girvo_mod/blockstates/vakuto.json",
+          "src/main/resources/assets/girvo_mod/models/item/vakuto.json",
+          "src/main/resources/assets/girvo_mod/models/block/vakuto.json"
+        ]
+      }
+    },
+    {
+      "name": "Pulsidio",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsidio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/block/PulsidioBlock.java",
+          "src/main/resources/assets/girvo_mod/blockstates/pulsidio.json",
+          "src/main/resources/assets/girvo_mod/models/item/pulsidio.json",
+          "src/main/resources/assets/girvo_mod/models/block/pulsidio.json",
+          "src/main/resources/data/girvo_mod/loot_table/blocks/pulsidio.json",
+          "src/main/resources/assets/girvo_mod/items/pulsidio.json"
+        ]
+      }
+    },
+    {
+      "name": "PulsidioShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsidio_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/item/PulsidioShardItem.java",
+          "src/main/resources/assets/girvo_mod/models/item/pulsidio_shard.json",
+          "src/main/resources/assets/girvo_mod/items/pulsidio_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "Kirita",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirita",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/loot_table/blocks/kirita.json",
+          "src/main/resources/assets/girvo_mod/models/block/kirita.json",
+          "src/main/java/net/mcreator/girvomod/block/KiritaBlock.java",
+          "src/main/resources/assets/girvo_mod/blockstates/kirita.json",
+          "src/main/resources/assets/girvo_mod/items/kirita.json",
+          "src/main/resources/assets/girvo_mod/models/item/kirita.json"
+        ]
+      }
+    },
+    {
+      "name": "KiriteShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirite_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/item/KiriteShardItem.java",
+          "src/main/resources/assets/girvo_mod/models/item/kirite_shard.json",
+          "src/main/resources/assets/girvo_mod/items/kirite_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "KiriteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/girvomod/item/KiriteAxeItem.java",
+          "src/main/resources/assets/girvo_mod/items/kirite_axe.json",
+          "src/main/resources/assets/girvo_mod/models/item/kirite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "KiriteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/girvo_mod/models/item/kirite_sword.json",
+          "src/main/java/net/mcreator/girvomod/item/KiriteSwordItem.java",
+          "src/main/resources/assets/girvo_mod/items/kirite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "KiriteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/recipe/kirite_axe_recipe.json",
+          "src/main/resources/data/girvo_mod/advancement/recipes/kirite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KiriteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/girvo_mod/advancement/recipes/kirite_sword_recipe.json",
+          "src/main/resources/data/girvo_mod/recipe/kirite_sword_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -451,6 +602,21 @@
     ],
     "ITEMS:girvo_mod:supernova_armor_repair_items": [
       "~CUSTOM:SupernovaIngot"
+    ],
+    "ITEMS:girvo_mod:kirite_pickaxe_repair_items": [],
+    "ITEMS:girvo_mod:kirite_axe_repair_items": [
+      "~CUSTOM:KiriteShard"
+    ],
+    "ITEMS:girvo_mod:kirite_sword_repair_items": [
+      "~CUSTOM:KiriteShard"
+    ],
+    "ITEMS:girvo_mod:kirite_shovel_repair_items": [],
+    "ITEMS:girvo_mod:kirite_hoe_repair_items": [],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:KiriteAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:KiriteSword"
     ]
   },
   "tab_element_order": {},
@@ -472,7 +638,15 @@
       "item.girvo_mod.supernova_armor_leggings": "Supernova Leggings",
       "item.girvo_mod.supernova_armor_helmet": "Supernova Helmet",
       "item.girvo_mod.supernova_armor_chestplate": "Supernova Chestplate",
-      "item.girvo_mod.supernova_armor_boots": "Supernova Boots"
+      "item.girvo_mod.supernova_armor_boots": "Supernova Boots",
+      "item.girvo_mod.vakuto_shard": "Fragmento de Vakuto",
+      "item.girvo_mod.vakuto": "Vakuto",
+      "item.girvo_mod.pulsidio": "Pulsidio",
+      "item.girvo_mod.pulsidio_shard": "Pulsidio Shard",
+      "item.girvo_mod.kirita": "Kirita",
+      "item.girvo_mod.kirite_shard": "Kirite Shard",
+      "item.girvo_mod.kirite_axe": "Kirite Axe",
+      "item.girvo_mod.kirite_sword": "Kirite Sword"
     }
   },
   "metadata": {
